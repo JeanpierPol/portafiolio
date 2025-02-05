@@ -101,3 +101,45 @@ header{
 .logo--desktop{
     display: none;
 }
+
+/* ---- HEADER QUERIES ----*/
+
+@media screen and (min-width: 600px) {
+    header{
+        position: static;
+    }
+
+    .header__nav{
+        display: block;
+        position: static;
+        width: auto;
+        height: auto;
+        z-index: 0;
+    }
+
+    .header__nav-list {
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    .header__open-nav-button{
+        display: none;
+    }
+
+    .header__nav-item a{
+        font-size: 1.2rem;
+    }
+
+    .logo--mobile{
+        display: none;
+    }
+    
+    .logo--desktop{
+        display: block;
+    }
+}
+
+/* ---- HEADER END ----*/
