@@ -143,3 +143,77 @@ header{
 }
 
 /* ---- HEADER END ----*/
+
+/* ---- PROFILE SECTION ----*/
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
+
+/* .profile__img-container{
+
+} */
+
+.profile__img{
+    max-width: 100%;
+    width: 500px;
+}
+
+h1{
+    color: var(--main-bg-principal);
+    text-align: center;
+}
+
+.profile__description p{
+    text-align: center;
+}
+
+.profile__skills-container h2{
+    color: var(--main-alt);
+    text-align: center;
+}
+
+.profile__skill{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.profile__skill span{
+    margin: auto;
+}
+
+.load-bar{
+    border: 1px solid var(--main-bg-principal);
+    border-radius: 6px;
+    color: var(--main-secundary);
+    padding: 2px;
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 4px;
+}
+
+.load-bar__bar{
+    background-color: var(--main-alt);
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.bar--80{
+    width: 80%;
+}
+
+.bar--70{
+    width: 70%;
+}
+
+.bar--60{
+    width: 60%;
+}
+
+.bar--50{
+    width: 50%;
+}
